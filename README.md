@@ -120,9 +120,9 @@ RAG System → Treatment Answer
 
 ## Performance
 
-~98% accuracy
-/nFaster training using PCA
-/nContext-aware treatment generation via RAG
+* **High Accuracy:** Achieved **~98%** accuracy on the test dataset.
+* **Optimized Efficiency:** Faster training and inference times implemented using **PCA** for dimensionality reduction.
+* **Context-Aware Guidance:** Intelligent treatment generation powered by **RAG**, ensuring evidence-based medical responses.
 
 
 ## Author

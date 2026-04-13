@@ -116,11 +116,7 @@ Prediction
 RAG System → Treatment Answer
 
 ## Output Classes
-
-MildDemented
-/nModerateDemented
-/nNonDemented
-/nVeryMildDemented
+`NonDemented`  `VeryMildDemented`  `MildDemented`  `ModerateDemented`
 
 ## Performance
 

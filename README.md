@@ -118,15 +118,15 @@ RAG System → Treatment Answer
 ## Output Classes
 
 MildDemented
-ModerateDemented
-NonDemented
-VeryMildDemented
+/nModerateDemented
+/nNonDemented
+/nVeryMildDemented
 
 ## Performance
 
 ~98% accuracy
-Faster training using PCA
-Context-aware treatment generation via RAG
+/nFaster training using PCA
+/nContext-aware treatment generation via RAG
 
 
 ## Author

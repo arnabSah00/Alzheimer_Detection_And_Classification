@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+p_env/
+
+# Data
+data/
+rag/vector_db/
+rag/data/
+rag/.ipynb_checkpoints/
+rag/__pycache__/
+models/
+notebook/models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

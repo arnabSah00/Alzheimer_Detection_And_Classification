@@ -1,0 +1,24 @@
+streamlit
+numpy
+pandas
+scikit-learn
+opencv-python
+tensorflow
+keras
+joblib
+
+# RAG
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+chromadb
+
+# NLP
+transformers
+sentence-transformers
+torch
+
+# PDF
+pypdf

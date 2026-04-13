@@ -84,16 +84,16 @@ Final Answer
 
 ## RAG Stages
 
-**Document Loading** – Load treatment PDFs
-**Chunking** – Split into meaningful sections
-**Metadata Extraction** - extract metadata of each chunk->source id,chunk id etc
-**Embedding** – Convert text → vectors
-**Vector Storage** – Store in Chroma DB
-**Query Processing** – Combine stage + question
-**Retrieval** – Fetch relevant chunks
-**Prompt Engineering** – Structured input
-**LLM Generation** – Context-based answer
-
+### **The Pipeline Flow:**
+1. **Document Loading** – Ingesting medical treatment PDFs using `PyPDF`.
+2. **Chunking** – Splitting dense text into smaller, meaningful sections for better retrieval accuracy.
+3. **Metadata Extraction** – Extracting specific metadata for each chunk (e.g., `source_id`, `chunk_id`) to maintain traceability.
+4. **Embedding** – Converting text chunks into high-dimensional vectors using **MiniLM**.
+5. **Vector Storage** – Storing and indexing vectors in **Chroma DB** for efficient similarity searching.
+6. **Query Processing** – Merging the predicted Alzheimer’s stage with the user's specific question.
+7. **Retrieval** – Fetching the top-K most relevant document chunks based on vector similarity.
+8. **Prompt Engineering** – Constructing a structured prompt that feeds the retrieved context into the LLM.
+9. **LLM Generation** – Generating a natural language answer using **TinyLlama** based strictly on the provided context.
 
 ## Model Pipeline
 
